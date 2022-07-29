@@ -202,7 +202,7 @@
                                 <img class="img-fluid professional-img" src="images/course/course-6.png" alt="">
                             </div>
                             <div class="">
-                                <h4 class="fw-bold">Graphics design Python Basic to Advance</h4>
+                                <h4 class="fw-bold">Graphics Basic to Advance</h4>
                                 <p>Some quick example text to build on the card title
                                     and make up the bulk of the card.</p>
                                 <h3 class="fw-bolder text-info">Price: $20</h3>
@@ -270,14 +270,31 @@
         <section class="mb-5">
             <div
                 class="container subscribe-height bg-info d-flex flex-lg-row flex-md-column flex-sm-column justify-content-around align-items-center rounded">
-                <div class="text-md-center text-sm-center">
+                <div class="text-md-center text-sm-center ">
                     <h1>Ready to join?</h1>
                     <p>It is a long established fact that a reader will be distracted <br> by the
                         readable content of a page when looking at its layout</p>
                 </div>
-                <div>
-                    <button class="btn btn-outline-primary text-white fw-bold px-3 py-2 ">Register Now</button>
+                    <button class="btn btn-outline-primary text-white fw-bold px-3 py-2  " data-bs-toggle="modal" data-bs-target="#exampleModal">Register Now</button>
                 </div>
+                <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Subscription Confirmation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you confirm to subscribe?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-primary">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
             </div>
         </section>
