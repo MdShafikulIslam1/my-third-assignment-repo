@@ -17,6 +17,15 @@
         text-align: center;
     }
 }
+@media only  screen and (max-width:768px){
+    .professional-course{
+        display: flex;
+        flex-direction: column;
+    }
+    .professional-img{
+        width:100% ;
+    }
+}
 
 
 
